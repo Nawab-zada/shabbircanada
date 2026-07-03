@@ -9,15 +9,19 @@ import { motion } from "framer-motion";
 import PopupForm from "../components/PopupForm";
 
 const features = [
-  { title: "Security Guard", description: "Ensure safety and security at company premises.", salary: 2500, icon: <FaShieldAlt />, image: "/secrityguard.png" },
-  { title: "Food Packing", description: "Pack and prepare food products for distribution.", salary: 3700, icon: <FaBox />, image: "/foodpacker.png" },
-  { title: "Cooking", description: "Prepare and cook meals according to safety standards.", salary: 2700, icon: <FaUtensils />, image: "/cook.png" },
-  { title: "Driving", description: "Transport goods and passengers safely to designated locations.", salary: 4000, icon: <FaTruck />, image: "/driver.png" },
-  { title: "Cashier", description: "Handle financial transactions and customer payments.", salary: 2900, icon: <FaCashRegister />, image: "/cashier.png" },
-  { title: "Accounting", description: "Manage financial records and transactions.", salary: 3400, icon: <FaCalculator />, image: "/accounting.png" },
-  { title: "Store Keeper", description: "Manage inventory, receive shipments, and organize warehouse items.", salary: 2600, icon: <FaWarehouse />, image: "/storekeeper.png" },
-  { title: "Plumber", description: "Install and repair piping systems.", salary: 2300, icon: <FaWrench />, image: "/plumber.png" },
-  { title: "Electrician", description: "Install and maintain electrical systems.", salary: 3200, icon: <FaBolt />, image: "/electric.png" },
+  { title: "Security Guard", description: "Ensure safety and security at company premises.", salary: 3200, icon: <FaShieldAlt />, image: "/secrityguard.png" },
+  { title: "Food Packing", description: "Pack and prepare food products for distribution.", salary: 4400, icon: <FaBox />, image: "/foodpacker.png" },
+  { title: "Cooking", description: "Prepare and cook meals according to safety standards.", salary: 3300, icon: <FaUtensils />, image: "/cook.png" },
+  { title: "Driving", description: "Transport goods and passengers safely to designated locations.", salary: 4800, icon: <FaTruck />, image: "/driver.png" },
+  { title: "Cashier", description: "Handle financial transactions and customer payments.", salary: 3500, icon: <FaCashRegister />, image: "/cashier.png" },
+  { title: "Accounting", description: "Manage financial records and transactions.", salary: 4100, icon: <FaCalculator />, image: "/accounting.png" },
+  { title: "Store Keeper", description: "Manage inventory, receive shipments, and organize warehouse items.", salary: 3200, icon: <FaWarehouse />, image: "/storekeeper.png" },
+  { title: "Plumber", description: "Install and repair piping systems.", salary: 3100, icon: <FaWrench />, image: "/plumber.png" },
+  { title: "Electrician", description: "Install and maintain electrical systems.", salary: 3800, icon: <FaBolt />, image: "/electric.png" },
+  // Replaced new categories per request
+  { title: "Operator", description: "Operate machinery and equipment in industrial settings.", salary: 3500, icon: <FaBolt />, image: "/operator.png" },
+  { title: "For Men", description: "Positions primarily for male applicants (general labour and skilled trades).", salary: 3200, icon: <FaCheckSquare />, image: "/foreman.png" },
+  { title: "Carpenter", description: "Perform skilled woodworking and construction tasks.", salary: 3300, icon: <FaWrench />, image: "/carpenter.png" },
 ];
 
 const FeatureCards = () => {
